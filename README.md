@@ -21,3 +21,6 @@ HelloCV/
 ├── docs/                                 # 详细文档目录
 ├── launch.json                           # vscode配置脚本
 └── tasks.json                            # vscode配置脚本
+
+联系方式
+如有问题请联系：w2583631380@163.com
