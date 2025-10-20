@@ -13,7 +13,15 @@
     操作系统：Ubuntu 22.04.5 LTS
     开发工具：ROS2、OpenCV 4.5.x、VS Code、Git
 
-项目结构
+分支说明
+
+重要提示：本项目包含两个分支：
+
+    main：当前查看的分支，包含基础项目说明
+
+    master：主要开发分支，包含完整的项目代码和文档
+    
+项目结构 https://github.com/w2583631380-droid/HelloCV
 
 HelloCV/
 ├── README.md                             # 项目说明文档
@@ -22,19 +30,25 @@ HelloCV/
 ├── launch.json                           # vscode配置脚本
 └── tasks.json                            # vscode配置脚本
 
-联系方式
-如有问题请联系：w2583631380@163.com
+项目结构（master分支）https://github.com/w2583631380-droid/HelloCV/tree/master
 
-第二阶段第二周任务
+在master分支中，项目具有完整的文件结构：
+text
 
-项目结构
 HelloCV/
-├── README.md                             # 项目说明文档
-├── 语雀笔记的Markdown链接汇总文档.md         # 语音笔记汇总
-├── 第二周语雀笔记链接汇总文档                # 第二周语雀笔记汇总
-├── docs/                                 # 详细文档目录
-├── launch.json                           # vscode配置脚本
-└── tasks.json                            # vscode配置脚本
+├── src/                    # 源代码目录
+│   ├── main.cpp           # 程序入口
+│   ├── Crypto.cpp         # 加密解密算法实现
+│   ├── Crypto.h           # 加密解密头文件
+│   ├── FileHandler.cpp    # 文件操作实现
+│   ├── FileHandler.h      # 文件操作头文件
+│   ├── Menu.cpp           # 用户界面实现
+│   └── Menu.h             # 用户界面头文件
+├── examples/              # 示例文件目录
+│   ├── input.txt          # 输入测试文件
+│   └── encrypted.txt      # 加密输出文件
+├── CMakeLists.txt         # CMake构建配置
+└── README.md             # 项目说明文档
 
 功能说明
 1. 文本加密
@@ -87,3 +101,9 @@ text
 请输入要加密的文件路径：examples/input.txt
 请输入密钥：5
 加密结果已保存到：examples/encrypted.txt
+
+联系方式
+如有问题请联系：w2583631380@163.com
+
+许可证
+本项目仅用于学习目的。
