@@ -1,0 +1,3 @@
+Hello, World!
+This is a secret message.
+Welcome to the encryption tool.

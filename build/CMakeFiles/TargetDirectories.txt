@@ -1,0 +1,3 @@
+/home/hlp/codes/HelloCV/build/CMakeFiles/CryptoTool.dir
+/home/hlp/codes/HelloCV/build/CMakeFiles/edit_cache.dir
+/home/hlp/codes/HelloCV/build/CMakeFiles/rebuild_cache.dir
